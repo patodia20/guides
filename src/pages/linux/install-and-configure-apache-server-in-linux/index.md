@@ -17,3 +17,7 @@ Step 2: Starting Apache Server<br>
 
 Step 3: Automatically Start Apache Server when Operating System start.<br>
 `systemctl enable httpd.service`
+
+
+Step 4: Add the service to firewall so that firewall allows the user to access the server.<br> 
+`firewall-cmd --add-service=http --permanent`
