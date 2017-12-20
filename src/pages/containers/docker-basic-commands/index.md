@@ -1,6 +1,6 @@
---------
-Some basic docker commands
---------
+---
+title: Docker Basic commands
+---
 
 Installing docker <br>
 ` yum install docker-engine`
